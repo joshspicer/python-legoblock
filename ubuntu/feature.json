@@ -1,1 +1,14 @@
-
+{
+    "options": [
+        { 
+            "displayName": "Python version",
+            "buildArg": "PYTHON_VERSION",
+            "type": "choice",
+            "choices": [
+                "2",
+                "3.7"
+            ], 
+            "allowCustom" : false
+        }
+    ]
+}
