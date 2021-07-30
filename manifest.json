@@ -1,3 +1,18 @@
 {
-  "flavor": "feature"
+  "flavor": "feature",
+  "variants": [
+    {
+      "folder": "alpine",
+      "supports_bases": [
+        "alpine"
+      ]
+    },
+    {
+      "folder": "ubuntu",
+      "supports_bases": [
+        "debian",
+        "ubuntu"
+      ]
+    }
+  ]
 }
